@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>아들맘 블로그모임 회원 특별 이벤트 · 숏드라마 제작 과정 (1달 4회)</title>
-<meta name="description" content="아들맘 블로그모임 회원 특별 이벤트 · 숏드라마 제작 과정. 주 1회 4주, 회당 2시간. 내 숏드라마 1화를 직접 만들고 유튜브 쇼츠 채널에 올려요.">
+<title>아들맘 블로그모임 회원 특별 이벤트 · 숏드라마 제작 과정</title>
+<meta name="description" content="아들맘 블로그모임 회원 특별 이벤트. 무료 설치 강의로 시작해, 1달 4회 또는 1달 8회 과정으로 내 숏드라마를 만들고 유튜브 쇼츠 채널에 올려요.">
 <meta name="robots" content="noindex">
-<meta property="og:title" content="아들맘 블로그모임 회원 특별 이벤트 · 숏드라마 제작 과정 (1달 4회)">
-<meta property="og:description" content="주 1회 4주, 회당 2시간. 내 숏드라마 1화와 유튜브 쇼츠 채널까지.">
+<meta property="og:title" content="아들맘 블로그모임 회원 특별 이벤트 · 숏드라마 제작 과정">
+<meta property="og:description" content="무료 강의, 1달 4회, 1달 8회 과정. X Premium은 본인 구독.">
 <meta property="og:image" content="assets/video/contract-ep1-grok.jpg">
 <meta name="theme-color" content="#0d1b3a">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
@@ -373,59 +373,118 @@ button.cal-cell{cursor:pointer;border-top:0;border-left:0;border-radius:0}button
 .style-list li{padding:10px 12px;background:var(--wash);border-radius:6px;font-size:14.5px}
 .style-list b{display:inline-block;min-width:1.4em;color:var(--blue);margin-right:4px}
 @media(max-width:760px){.r-archive-links a{flex:1 1 100%;justify-content:center}}
+
+
+.course-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:28px}
+.course-cards .tcard{display:flex;flex-direction:column;height:100%}
+.course-cards .tcard .r-btn{margin-top:auto}
+.course-cards .tcard-one{min-height:3.3em}.course-cards dt{white-space:nowrap}
+.prereq{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;padding:16px 20px;border:1px solid var(--line);border-radius:10px;background:var(--wash);margin:8px 0 28px;font-size:15px}
+.prereq strong{color:var(--ink)}
+.prereq a{color:var(--blue);font-weight:700;text-decoration:none}
+.prereq a:hover{text-decoration:underline}
+.r-switch{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.r-switch a{display:inline-flex;align-items:center;min-height:40px;padding:6px 14px;border:1px solid var(--line);border-radius:5px;background:#fff;font-size:14px;font-weight:600}
+.r-switch a:hover,.r-switch a.is-on{background:var(--pale);border-color:#aebed6;color:var(--blue)}
+.r-hero .r-switch a{background:transparent;border-color:#ffffff44;color:#fff}
+.r-hero .r-switch a:hover,.r-hero .r-switch a.is-on{background:#fff;color:var(--ink);border-color:#fff}
+.r-price .r-archive p{color:#c9d3e2;font-size:14px;margin-bottom:12px}
+.r-price .r-archive{margin-top:36px;padding-top:28px;border-top:1px solid rgba(255,255,255,.18)}
+.r-price .r-archive-links{display:flex;flex-wrap:wrap;gap:10px}
+.r-price .r-archive-links a,.r-foot .r-archive-links a{display:inline-flex;align-items:center;min-height:44px;padding:8px 14px;border:1px solid #fff;border-radius:5px;background:#fff;color:#12213b;font-size:14px;font-weight:600}
+.r-price .r-archive-links a:hover{background:var(--pale);border-color:var(--pale);color:var(--blue)}
+.code-install{margin:0 0 12px;padding:12px 14px;background:#0d1b3a;color:#e8eef8;border-radius:6px;font-size:12.5px;line-height:1.55;overflow-x:auto;white-space:pre-wrap;word-break:break-all}
+.acc-side .code-label{display:block;font-size:12px;font-weight:700;color:var(--muted);margin:10px 0 4px}
+.checklist{margin:0;padding:0;list-style:none}
+.checklist li{position:relative;padding:8px 0 8px 28px;border-bottom:1px solid var(--line);font-size:14.5px}
+.checklist li:last-child{border-bottom:0}
+.checklist li::before{content:"✓";position:absolute;left:0;color:var(--blue);font-weight:700}
+.style-list{display:grid;gap:8px;margin:0 0 18px;padding:0;list-style:none}
+.style-list li{padding:10px 12px;background:var(--wash);border-radius:6px;font-size:14.5px}
+.style-list b{display:inline-block;min-width:1.4em;color:var(--blue);margin-right:4px}
+@media(max-width:900px){.course-cards{grid-template-columns:1fr}}
+@media(max-width:760px){.r-archive-links a{flex:1 1 100%;justify-content:center}}
+
+
+.prereq-wrap{padding:110px 0 16px}
 </style>
 </head>
 <body class="recruit">
 <a class="skip-link" href="#main">본문 바로가기</a>
 <header class="r-top"><div class="r-top-in">
- <a class="brand" href="#main" aria-label="숏드라마 제작 과정 처음으로"><img src="assets/brand-wordmark.png" alt="AI빌더스랩" width="150" height="46"></a>
- <span class="brand-text">숏드라마 <em>1달 4회</em></span>
- <nav aria-label="과정 메뉴"><a href="#tracks">1회·과정</a><a href="#overview">4회 한눈에</a><a href="#notice">1회 안내</a><a href="#curriculum">커리큘럼</a><a href="#results">결과물</a><a href="#price">비용</a><a href="#faq">FAQ</a></nav>
+ <a class="brand" href="index.html" aria-label="과정 소개로"><img src="assets/brand-wordmark.png" alt="AI빌더스랩" width="150" height="46"></a>
+ <span class="brand-text">숏드라마 <em>과정 안내</em></span>
+ <nav aria-label="과정 메뉴"><a href="#courses">과정 고르기</a><a href="#examples">예시 영상</a><a href="#price">비용</a><a href="#faq">FAQ</a></nav>
  <a class="r-apply" href="#apply">신청 방법</a>
 </div></header>
-
 <main id="main" tabindex="-1">
+
 <section class="r-hero"><div class="r-wrap">
- <p class="r-chip"><b>아들맘 블로그모임 회원 특별 이벤트</b>숏드라마 제작 과정 · 1달 4회</p>
- <h1>블로그 쓰던 내가,<br>4주 뒤엔 <mark>숏드라마 1화</mark>를<br>내 채널에 올려요.</h1>
- <p class="r-lede">그록봇과 Aside를 설치하고, 영상을 자동화하고, 쇼츠 채널을 연 다음<br>김숏드로 내 숏드라마 1화를 직접 만들어요.<br><mark>주 1회, 4주 동안, 회당 2시간씩 함께 만듭니다.</mark></p>
- <p class="r-path"><span class="pill free">수업료 0원</span>1회 설치 수업으로 시작 <b>→</b> 4회로 내 숏드라마 1화와 채널 완성</p>
+ <p class="r-chip"><b>아들맘 블로그모임 회원 특별 이벤트</b>숏드라마 제작 과정</p>
+ <h1>블로그 쓰던 내가,<br><mark>숏드라마</mark>를<br>내 채널에 올려요.</h1>
+ <p class="r-lede">먼저 무료 설치 강의에서 그록봇과 Aside를 설치해요.<br>그다음 4회 과정 또는 8회 과정으로 내 영상을 직접 만들어요.<br><mark>회당 2시간, 오프라인으로 함께 만듭니다.</mark></p>
+ <p class="r-path"><span class="pill free">수업료 0원</span>무료 강의로 시작 <b>→</b> 1달 4회 또는 1달 8회 과정으로 이어 가기</p>
  <p class="r-path-note">동탄 실리콘앨리 B동 1529호 · 주차 지원 · 요일·시간 추후 안내 · 신청은 아들맘님께 · 수강생 컴퓨터는 대부분 윈도우</p>
- <p class="r-cta"><a class="r-btn" href="#apply">신청 방법 보기</a><a class="r-btn free" href="#notice">1회 설치 수업 안내</a><a class="r-btn line" href="#curriculum">4회 커리큘럼</a></p>
+ <p class="r-cta"><a class="r-btn" href="#courses">과정 고르기</a><a class="r-btn free" href="free.html">무료 강의 안내</a><a class="r-btn line" href="#examples">예시 영상 보기</a></p>
  <div class="r-promise">
   <div><span>“</span><strong>결제·게시 버튼은<br><mark>언제나 내가</mark> 눌러요.</strong><p>AI는 준비까지. 구독 결제도 업로드도 내 손으로 해요.</p></div>
   <div><span>“</span><strong>줄거리는 <mark>자막</mark>으로 읽고,<br>목소리는 <mark>1배속</mark>이에요.</strong><p>목소리는 선택이에요. 넣을 때는 배속 없이, 무료 기반으로 만들어요.</p></div>
  </div>
 </div></section>
 
-<section class="r-tracks" id="tracks"><div class="r-wrap">
- <h2>1회 설치 수업과 제작 과정, 이렇게 달라요</h2>
- <p class="r-sub">1회는 수업료 없이 도구를 설치하는 날이에요. 2~4회에 영상 자동화, 쇼츠 채널, 숏드라마 1화를 완성해요.</p>
- <div class="tcard-grid">
-  <article class="tcard free"><p class="tcard-badge">수업료 0원</p><h3>1회 설치 수업</h3><p class="tcard-one">그록봇과 Aside를 내 노트북에 설치하고, 대화·루틴·브라우저 일을 하나씩 해 봐요.</p>
-   <dl><div><dt>내용</dt><dd>Aside + 그록봇 설치 · X Premium 직접 구독 · 기초 활용</dd></div><div><dt>시간</dt><dd>2시간 · 1주차<small>요일·시간 추후 안내</small></dd></div><div><dt>대상</dt><dd>아들맘 블로그모임 회원 · 오프라인<small>대부분 윈도우</small></dd></div><div><dt>비용</dt><dd><strong><mark>수업료 0원</mark></strong><small>그록봇용 X Premium(월 $30 + 세금)은 본인 구독</small></dd></div></dl>
-   <a class="r-btn free" href="#notice">1회 안내 보기</a></article>
-  <article class="tcard paid"><p class="tcard-badge">2~4회</p><h3>숏드라마 제작 과정</h3><p class="tcard-one">내 AI를 연결하고, 쇼츠 채널을 열고, 숏드라마 1화를 올려요.</p>
-   <dl><div><dt>내용</dt><dd>herdr로 AI 연결 → Flow·Grok 자동화 → 쇼츠·채널 → 김숏드 1화</dd></div><div><dt>일정</dt><dd>주 1회 × 4주 · 총 4회 · 회당 2시간<small>요일·시간 추후 안내</small></dd></div><div><dt>장소</dt><dd>동탄 실리콘앨리 B동 1529호<small>주차 지원</small></dd></div><div><dt>결과</dt><dd><strong><mark>채널에 올라간 1화</mark></strong><small>도구 구독은 본인 결제</small></dd></div></dl>
-   <a class="r-btn" href="#apply">신청 방법 보기</a></article>
+<section class="r-tracks" id="courses"><div class="r-wrap">
+ <h2>세 과정, 이렇게 나뉘어요</h2>
+ <p class="r-sub">무료 강의가 4회·8회 과정의 선수 수업이에요. 수강료 금액은 아직 정하지 않아 적지 않아요. 그록봇용 X Premium은 본인이 구독해요.</p>
+ <div class="course-cards">
+  <article class="tcard free">
+   <p class="tcard-badge">수업료 0원</p>
+   <h3>무료 강의</h3>
+   <p class="tcard-one">그록봇과 Aside를 설치하고, 대화·루틴·브라우저 일을 하나씩 해 봐요.</p>
+   <dl>
+    <div><dt>일정</dt><dd>1회 · 2시간</dd></div>
+    <div><dt>내용</dt><dd>설치 · X Premium 직접 구독 · 기초 활용</dd></div>
+    <div><dt>비용</dt><dd><strong><mark>수업료 0원</mark></strong><small>X Premium(월 $30 + 세금)은 본인 구독</small></dd></div>
+    <div><dt>이어서</dt><dd>4회·8회 과정의 선수 수업</dd></div>
+   </dl>
+   <a class="r-btn free" href="free.html">무료 강의 보기</a>
+  </article>
+  <article class="tcard paid">
+   <p class="tcard-badge">주 1회</p>
+   <h3>1달 4회 과정</h3>
+   <p class="tcard-one">영상 자동화, 쇼츠 채널, 김숏드로 숏드라마 1화까지 만들어요.</p>
+   <dl>
+    <div><dt>일정</dt><dd>주 1회 × 4주 · 총 4회 · 회당 2시간</dd></div>
+    <div><dt>선수 수업</dt><dd>무료 강의</dd></div>
+    <div><dt>결과</dt><dd><strong><mark>채널에 올라간 1화</mark></strong><small>숏드라마 1화 + 채널 업로드</small></dd></div>
+    <div><dt>비용</dt><dd>X Premium은 본인 구독<small>수강료 금액은 추후 안내</small></dd></div>
+   </dl>
+   <a class="r-btn" href="month-4.html">4회 과정 보기</a>
+  </article>
+  <article class="tcard paid">
+   <p class="tcard-badge">주 2회</p>
+   <h3>1달 8회 과정</h3>
+   <p class="tcard-one">시리즈 기획부터 2화, 썸네일, 채널 운영 루틴까지 가져가요.</p>
+   <dl>
+    <div><dt>일정</dt><dd>주 2회 × 4주 · 총 8회 · 회당 2시간</dd></div>
+    <div><dt>선수 수업</dt><dd>무료 강의</dd></div>
+    <div><dt>결과</dt><dd><strong><mark>1~2화 + 루틴</mark></strong><small>숏드라마 1~2화 · 정보형 쇼츠 · 채널 운영 루틴</small></dd></div>
+    <div><dt>비용</dt><dd>X Premium은 본인 구독<small>수강료 금액은 추후 안내</small></dd></div>
+   </dl>
+   <a class="r-btn" href="month-8.html">8회 과정 보기</a>
+  </article>
  </div>
- <p class="tcard-sub"><em class="pill sub">필수 구독</em>그록봇에는 <strong>X Premium 구독(월 $30, 세금 별도)</strong>이 필요해요. 1회 수업 중에 각자 본인 카드로 구독해요. Google Flow는 무료 계정으로 시작하고, 나머지 도구는 무료로 수업을 진행해요.<br><em class="pill sub">신청</em>신청은 <strong>아들맘님께 별도로</strong> 해 주세요.</p>
+ <p class="tcard-sub"><em class="pill sub">필수 구독</em>그록봇에는 <strong>X Premium 구독(월 $30, 세금 별도)</strong>이 필요해요. 무료 강의 중에 각자 본인 카드로 구독해요. Google Flow는 무료 계정으로 시작하고, 나머지 도구는 무료로 수업을 진행해요.<br><em class="pill sub">신청</em>신청은 <strong>아들맘님께 별도로</strong> 해 주세요.</p>
 </div></section>
-
-<section class="r-sec gb wash"><div class="r-wrap ex-grid">
+<section class="r-sec gb wash" id="examples"><div class="r-wrap ex-grid">
  <div class="gb-copy">
   <p class="r-kicker">이런 걸 만들어요</p>
   <h2><mark>1분이 안 되는 세로 숏드라마,</mark><br>내 이야기로 한 편</h2>
-  <p class="r-sub">같은 대본을 Google Flow와 Grok으로 각각 만든 최신 예시예요. 첫 15초에 거절·소유·숨은 관계 훅, 인물 3명 이하, 소품 하나, 답이 없는 엔딩. 인기작의 공통 문법으로 만들어요.</p>
+  <p class="r-sub">같은 대본을 Google Flow와 Grok으로 각각 만든 최신 예시예요. 첫 15초에 거절·소유·숨은 관계 훅, 인물 3명 이하, 소품 하나, 답이 없는 엔딩.</p>
   <ul class="gb-facts">
    <li><b>스타일</b><span>실사 앱 드라마 · 감성 웹드라마 · 웹툰풍 릴스 · 로판 · 직접 입력</span></li>
-   <li><b>영상</b><span>Grok 또는 Google Flow, 2회에서 익힌 자동화로</span></li>
+   <li><b>영상</b><span>Grok 또는 Google Flow, 그록봇·Aside로 자동화</span></li>
    <li><b>전달</b><span>자막 위주 · 목소리는 선택, 쓰면 <mark>모두 1배속</mark></span></li>
   </ul>
-  <div class="gb-vs">
-   <div><strong>Aside · 그록봇</strong><span>브라우저는 Aside에서, 클라우드 작업은 그록봇에서 맡아요</span></div>
-   <div><strong>herdr · 김숏드</strong><span>내 AI를 연결하고, 김숏드로 숏드라마 1화를 만들어요</span></div>
-  </div>
  </div>
  <div class="ex-imgs">
   <figure>
@@ -439,580 +498,17 @@ button.cal-cell{cursor:pointer;border-top:0;border-left:0;border-radius:0}button
  </div>
 </div></section>
 
-<section class="r-sec" id="overview"><div class="r-narrow">
- <h2>4주 · 4회, <mark>한눈에</mark></h2>
- <p class="r-sub">1회에 도구를 설치하고, 2회에 영상을 자동화하고, 3회에 쇼츠 채널을 열고, 4회에 숏드라마 1화를 올려요.</p>
- <ol class="r-list">
-  <li class="free-on"><span>1회</span>그록봇과 Aside 설치, 기초 활용<em class="pill free">수업료 0원</em></li>
-  <li class=""><span>2회</span>herdr로 내 AI 연결과 영상 자동화<em class="pill sub">Flow 무료</em></li>
-  <li class=""><span>3회</span>hyperframeshorts로 쇼츠 만들고 채널 열기</li>
-  <li class=""><span>4회</span>김숏드로 숏드라마 1화 완성·업로드·발표</li>
- </ol>
-</div></section>
-
-<section class="r-sec wash" id="notice"><div class="r-narrow">
- <p class="r-kicker">1회 설치 수업 전에 꼭 읽어 주세요</p>
- <h2>수업은 무료, <mark>X Premium은 본인 구독</mark></h2>
- <p class="r-sub">그록봇은 X Premium 구독이 있어야 작동해요. 수업 중에 각자 본인 카드로 함께 구독해요.</p>
- <div class="notice-grid">
-  <article class="tcard free">
-   <p class="tcard-badge">가져올 것</p>
-   <dl>
-    <div><dt>노트북</dt><dd>충전기 포함 · 수강생은 대부분 윈도우<small>Mac도 가능해요</small></dd></div>
-    <div><dt>카드</dt><dd>본인 명의 · 해외 결제 가능한 카드</dd></div>
-    <div><dt>계정</dt><dd>Google 계정 아이디·비밀번호 (직접 입력)<small>X 계정은 있으면 좋고, 없어도 돼요</small></dd></div>
-    <div><dt>휴대폰</dt><dd>로그인 인증용</dd></div>
-   </dl>
-   <p class="must">결제 버튼은 본인이 직접 눌러요. 강사는 카드 번호·비밀번호를 받거나 대신 입력하지 않아요.</p>
-  </article>
-  <article class="tcard paid">
-   <p class="tcard-badge">X Premium 비용과 해지</p>
-   <dl>
-    <div><dt>요금</dt><dd>월 $30 + 세금<small>연간 결제는 $300 · 원화는 카드사 환율·수수료에 따라 달라요</small></dd></div>
-    <div><dt>갱신</dt><dd>매달 자동 갱신<small>원하지 않으면 갱신 24시간 전까지 해지</small></dd></div>
-    <div><dt>해지</dt><dd>grok.com/dashboard/billing → Current plan 옵션 → Cancel<small>해지해도 이번 결제 기간 끝까지 그대로 써요</small></dd></div>
-    <div><dt>결제처</dt><dd>수업에서는 웹에서 결제<small>앱스토어·구글 플레이 결제는 그 스토어에서 해지해야 해요</small></dd></div>
-   </dl>
-   <p class="must">결제를 원하지 않으시면 Aside만 설치하고, 그록봇은 강사 화면으로 따라 보셔도 돼요.</p>
-  </article>
- </div>
-</div></section>
-
-<section class="r-sec" id="curriculum"><div class="r-narrow">
- <h2>1회 설치 수업 + 3회 제작 · 4주</h2>
- <p class="r-box"><mark>매 회차 실습 → 결과 보기 → 고치기로 끝나요.</mark> 강사 시연을 보고 → 따라 하고 → 내 이야기로 바꿉니다.<br><small>※ 커리큘럼은 진도와 새로 나온 도구에 맞춰 다듬을 수 있어요.</small></p>
- <p class="r-sub">회차를 누르면 120분 진행표, 실습, 준비물, 결과물이 보여요.</p>
- <div class="accs">
-
-<details class="acc is-free" id="s1" open>
-<summary><span class="acc-no free">1회<em class="pill free">수업료 0원</em></span>
-<span class="acc-when">1주차 · 2시간<small>X Premium은 본인 구독</small></span>
-<strong>그록봇과 Aside 설치, 기초 활용</strong>
-<span class="acc-short">내 노트북에 Aside와 그록봇을 설치하고, 대화·루틴·브라우저 일을 하나씩 해 봐요.</span>
-<i aria-hidden="true"></i></summary>
-<div class="acc-body"><div class="acc-grid">
- <div>
-  <h4>학습 목표</h4>
-  <ul class="acc-steps" style="list-style:disc">
-   <li>내 노트북에 Aside와 그록봇을 설치하고 로그인까지 끝내요.</li>
-   <li>X Premium을 내 카드로 직접 구독하고, 갱신일과 해지 위치를 알아 둬요.</li>
-   <li>두 도구의 차이를 한 줄로 말할 수 있어요. Aside는 내 컴퓨터 브라우저에서, 그록봇은 클라우드 컴퓨터에서 일해요.</li>
-   <li>그록봇 대화 하나, 루틴 하나, Aside 브라우저 일 하나를 직접 해 보고 결과를 확인해요.</li>
-  </ul>
-    <div class="period">
-     <div class="period-header">
-      <div>
-       <h5><span>120분</span>진행표</h5>
-       <p>설명은 짧게, 직접 해 보는 시간은 길게</p>
-      </div>
-     </div>
-     <ol class="blocks">
-    <li class="block">
-     <span class="block-time">0~8분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>도입</strong>
-      </div>
-      <p>강사 소개, 완성 예시 숏드라마 시청, 4회 흐름 안내</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">8~15분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>개념</strong>
-      </div>
-      <p>챗봇 vs Aside vs 그록봇 비교. 결제·게시 버튼은 내가 눌러요</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">15~37분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>설치① Aside</strong>
-      <span class="block-type practice">실습</span>
-      </div>
-      <p>다운로드 → 설치 → Google 로그인 → 크롬 데이터 가져오기 → 가벼운 기본 모델 → 확인 모드 Ask first</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">37~45분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>실습①</strong>
-      <span class="block-type practice">실습</span>
-      </div>
-      <p>Aside에 인기 숏드라마 3편 조사 맡기기 (브라우저 일 1개)</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">45~50분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>휴식</strong>
-      </div>
-      <p>늦은 분은 강사가 개별 도움</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">50~70분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>X Premium 구독</strong>
-      <span class="block-type practice">실습</span>
-      </div>
-      <p>강사 화면으로 순서 보기 → 각자 웹에서 Premium 선택 → 내 카드 직접 입력 → 결제 버튼 내가 클릭 → 플랜·갱신일 확인 → 달력에 적기 → 해지 위치 눈으로 확인</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">70~92분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>설치② 그록봇</strong>
-      <span class="block-type practice">실습</span>
-      </div>
-      <p>다운로드 → 설치 → 로그인(구독한 계정과 같은 계정) → 첫 봇 채팅 → 클라우드 컴퓨터 준비 기다리기</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">92~105분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>실습②</strong>
-      <span class="block-type practice">실습</span>
-      </div>
-      <p>그록봇 대화 하나(아이디어 3개 받고 하나 고치기) + 루틴 하나 만들기</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">105~114분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>결과 보기</strong>
-      </div>
-      <p>2~3명 화면 공유: 잘된 점 하나, 고칠 점 하나</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">114~120분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>마무리</strong>
-      </div>
-      <p>설치·구독 체크리스트 확인, 다음 준비물 안내</p>
-     </div>
-    </li>
-     </ol>
-    </div>
- </div>
- <div class="acc-side">
-  <h4>실습</h4>
-  <ol class="acc-steps">
-   <li>Aside에 숏드라마 인기작 조사 맡기기 (브라우저 일 1개)</li>
-   <li>X Premium 내 카드로 구독 → 갱신일 달력에 적기 → 해지 위치 확인</li>
-   <li>그록봇에 아이디어 3개 받고 하나를 이어서 고치기 (대화 1개)</li>
-   <li>그록봇 또는 Aside에 루틴 하나 만들기</li>
-  </ol>
-  <div class="acc-prompt"><span>예시 프롬프트 1</span>
-<pre>(Aside) 유튜브에서 "숏드라마"로 검색해서 조회수가 높은 세로 영상 3편을 찾아 줘. [제목 / 길이 / 첫 3초 장면 / 링크] 표로 정리하고, 확인하지 못한 칸은 '미확인'이라고 적어 줘.</pre></div>
-  <div class="acc-prompt"><span>예시 프롬프트 2</span>
-<pre>(그록봇) 나는 블로그를 하는 40대 엄마예요. 숏드라마를 처음 만들어요. 45초짜리 세로 숏드라마 아이디어 3개를 한 줄씩 주세요. 인물은 3명 이하, 끝은 다음 화가 궁금하게 끊어 주세요.</pre></div>
-  <div class="acc-prompt"><span>예시 프롬프트 3</span>
-<pre>(그록봇, 이어서) 2번이 마음에 들어요. 주인공을 30대 워킹맘으로 바꾸고, 첫 장면을 한 문장으로 보여 주세요.</pre></div>
-  <p class="acc-prep"><b>준비물</b> · 노트북+충전기(대부분 윈도우, Mac도 가능), Google 계정, 해외 결제 되는 본인 카드, 휴대폰(인증용), X 계정(선택)</p>
-  <p class="acc-out"><span>끝나면 내 손에</span>Aside·그록봇이 로그인된 내 노트북 · X Premium 구독 · 조사표 · 대화 1개 · 루틴 1개</p>
- </div>
-</div></div>
-</details>
-
-<details class="acc" id="s2">
-<summary><span class="acc-no">2회</span>
-<span class="acc-when">2주차 · 2시간<small>요일·시간 추후 안내</small></span>
-<strong>내 AI 연결과 영상 자동화</strong>
-<span class="acc-short">herdr로 내 AI를 연결하고, Flow와 Grok에서 클립 3개를 자동으로 만들어요.</span>
-<i aria-hidden="true"></i></summary>
-<div class="acc-body"><div class="acc-grid">
- <div>
-  <h4>학습 목표</h4>
-  <ul class="acc-steps" style="list-style:disc">
-   <li>herdr를 내 노트북에 설치하고, 여러 AI를 창에 나눠 실행하는 이유를 한 줄로 말해요.</li>
-   <li>Grok CLI를 기본으로 연결해요. Codex·Claude·Gemini CLI는 이미 쓰는 분만 선택으로 연결해요.</li>
-   <li>Google Flow 무료 계정을 만들어요. 무료 크레딧에는 한도가 있어요. 양은 공식 화면에서 확인해요.</li>
-   <li>그록봇 또는 Aside로 Flow와 Grok에서 클립 3개를 자동으로 만드는 흐름을 한 번 끝까지 해 봐요.</li>
-  </ul>
-    <div class="period">
-     <div class="period-header">
-      <div>
-       <h5><span>120분</span>진행표</h5>
-       <p>설명은 짧게, 직접 해 보는 시간은 길게</p>
-      </div>
-     </div>
-     <ol class="blocks">
-    <li class="block">
-     <span class="block-time">0~10분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>복습</strong>
-      </div>
-      <p>1회 설치·구독 확인. 오늘 할 일: 내 AI 연결 + 클립 3개</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">10~20분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>개념</strong>
-      </div>
-      <p>herdr 소개. 터미널에서 AI를 창을 나눠 실행하고, 일하는 중·막힘·대기 상태를 보여 줘요. 창을 닫아도 작업은 이어져요</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">20~45분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>설치 herdr</strong>
-      <span class="block-type practice">실습</span>
-      </div>
-      <p>윈도우: PowerShell에서 설치 명령 실행. Mac은 Homebrew. 설치 후 herdr로 실행</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">45~50분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>휴식</strong>
-      </div>
-      <p>설치가 늦은 분은 강사가 개별 도움</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">50~75분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>AI 연결</strong>
-      <span class="block-type practice">실습</span>
-      </div>
-      <p>Grok CLI를 기본으로 연결. 이미 Codex·Claude·Gemini CLI를 쓰는 분은 선택으로 연결</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">75~90분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>Flow 계정</strong>
-      <span class="block-type practice">실습</span>
-      </div>
-      <p>Google Flow 무료 계정 만들기. 무료 크레딧 한도는 수업 때 공식 화면으로 확인</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">90~112분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>실습</strong>
-      <span class="block-type practice">실습</span>
-      </div>
-      <p>그록봇 또는 Aside에게 Flow와 Grok에서 클립 3개를 만들게 맡기기</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">112~120분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>결과 보기·마무리</strong>
-      </div>
-      <p>클립 확인, 다음 회 준비물 안내</p>
-     </div>
-    </li>
-     </ol>
-    </div>
- </div>
- <div class="acc-side">
-  <h4>실습</h4>
-  <ol class="acc-steps">
-   <li>herdr 설치하고 실행하기 (윈도우 기준, Mac은 별도 명령)</li>
-   <li>Grok CLI 연결하기 (기본). 다른 CLI는 선택</li>
-   <li>Google Flow 무료 계정 만들기</li>
-   <li>그록봇 또는 Aside로 Flow·Grok 클립 3개 만들기</li>
-  </ol>
-  <span class="code-label">윈도우 설치 (PowerShell)</span>
-  <pre class="code-install">powershell -ExecutionPolicy Bypass -c "irm https://herdr.dev/install.ps1 | iex"</pre>
-  <span class="code-label">Mac (Homebrew)</span>
-  <pre class="code-install">brew install herdr</pre>
-  <p class="acc-prep"><b>준비물</b> · 1회에서 설치한 그록봇·Aside, X Premium이 된 계정, Google 계정, (선택) 이미 쓰는 Codex·Claude·Gemini CLI</p>
-  <p class="acc-out"><span>끝나면 내 손에</span>설치된 herdr · Grok CLI 연결 · Flow 무료 계정 · 클립 3개</p>
-  <p class="acc-prep">herdr는 공개 도구예요. <a href="https://herdr.dev/" target="_blank" rel="noopener">herdr.dev ↗</a>에서 확인할 수 있어요. 터미널에서 Grok CLI·Codex·Claude Code·Gemini CLI를 창을 나눠 실행하고, 일하는 중·막힘·대기 상태를 보여 줘요.</p>
- </div>
-</div></div>
-</details>
-
-<details class="acc" id="s3">
-<summary><span class="acc-no">3회</span>
-<span class="acc-when">3주차 · 2시간<small>요일·시간 추후 안내</small></span>
-<strong>hyperframeshorts로 쇼츠 만들고 채널 열기</strong>
-<span class="acc-short">정보형 쇼츠 1편을 만들고, 내 유튜브 쇼츠 채널을 열어 직접 올려요.</span>
-<i aria-hidden="true"></i></summary>
-<div class="acc-body"><div class="acc-grid">
- <div>
-  <h4>학습 목표</h4>
-  <ul class="acc-steps" style="list-style:disc">
-   <li>hyperframeshorts를 설치하고, 정보형 쇼츠 1편을 만들어요.</li>
-   <li>내 유튜브 쇼츠 채널을 열어요. 채널 이름, 프로필, 소개글까지 갖춰요.</li>
-   <li>첫 영상을 본인이 직접 업로드해요. 게시 버튼은 본인이 눌러요.</li>
-  </ul>
-    <div class="period">
-     <div class="period-header">
-      <div>
-       <h5><span>120분</span>진행표</h5>
-       <p>설명은 짧게, 직접 해 보는 시간은 길게</p>
-      </div>
-     </div>
-     <ol class="blocks">
-    <li class="block">
-     <span class="block-time">0~10분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>복습</strong>
-      </div>
-      <p>2회에서 만든 클립 확인. 오늘 할 일: 정보형 쇼츠 1편 + 채널 개설 + 첫 업로드</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">10~20분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>개념</strong>
-      </div>
-      <p>정보형 쇼츠와 숏드라마의 차이. 채널 이름·프로필·소개글이 왜 필요한지</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">20~50분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>설치</strong>
-      <span class="block-type practice">실습</span>
-      </div>
-      <p>그록봇(또는 Aside)에 hyperframeshorts 설치. 저장소 안내를 함께 따라가요</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">50~55분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>휴식</strong>
-      </div>
-      <p>늦은 분은 강사가 개별 도움</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">55~90분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>실습</strong>
-      <span class="block-type practice">실습</span>
-      </div>
-      <p>정보형 쇼츠 1편 만들기. 주제는 내가 고름</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">90~110분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>채널</strong>
-      <span class="block-type practice">실습</span>
-      </div>
-      <p>유튜브 쇼츠 채널 개설: 이름, 프로필 사진, 소개글. Google 계정은 본인이 로그인</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">110~120분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>업로드·마무리</strong>
-      <span class="block-type practice">실습</span>
-      </div>
-      <p>첫 영상 직접 업로드. AI로 만든 장면은 ‘AI 사용’ 표시. 게시 버튼은 내가 눌러요</p>
-     </div>
-    </li>
-     </ol>
-    </div>
- </div>
- <div class="acc-side">
-  <h4>실습</h4>
-  <ol class="acc-steps">
-   <li>hyperframeshorts 설치하기</li>
-   <li>정보형 쇼츠 1편 만들기</li>
-   <li>유튜브 쇼츠 채널 열기 (이름·프로필·소개글)</li>
-   <li>첫 영상 직접 업로드하기</li>
-  </ol>
-  <p class="acc-prep"><b>저장소</b> · <a href="https://github.com/aihubos/hyperframesshorts" target="_blank" rel="noopener">github.com/aihubos/hyperframesshorts ↗</a>. 수업에서 저장소 안내를 따라 그록봇 또는 Aside에 함께 설치해요.</p>
-  <p class="acc-prep"><b>준비물</b> · 2회까지 설치한 도구, Google 계정(유튜브용), 쇼츠로 써 보고 싶은 주제 하나 (예: 블로그에서 이미 쓴 이야기)</p>
-  <p class="acc-out"><span>끝나면 내 손에</span>정보형 쇼츠 1편 · 내 유튜브 쇼츠 채널 · 채널에 올라간 첫 영상</p>
- </div>
-</div></div>
-</details>
-
-<details class="acc" id="s4">
-<summary><span class="acc-no">4회</span>
-<span class="acc-when">4주차 · 2시간<small>요일·시간 추후 안내</small></span>
-<strong>김숏드로 숏드라마 1화 완성</strong>
-<span class="acc-short">스타일과 45초 대본을 정하고, 영상을 만들어 내 채널에 올리고 발표해요.</span>
-<i aria-hidden="true"></i></summary>
-<div class="acc-body"><div class="acc-grid">
- <div>
-  <h4>학습 목표</h4>
-  <ul class="acc-steps" style="list-style:disc">
-   <li>스타일(A~E)을 고르고, 45초 1화 대본을 체크리스트에 맞춰 써요.</li>
-   <li>2회에서 익힌 자동화로 영상을 만들어요.</li>
-   <li>자막을 줄거리의 주된 전달로 두고, 목소리는 선택으로 넣어요. 넣으면 모두 1배속, 무료 기반으로 만들어요.</li>
-   <li>편집한 1화를 내 채널에 올리고, 짧게 발표해요.</li>
-  </ul>
-  <h4>스타일</h4>
-  <ul class="style-list">
-   <li><b>A</b> 실사 세로 앱 드라마</li>
-   <li><b>B</b> 실사 감성 웹드라마</li>
-   <li><b>C</b> 2D 일러스트·웹툰풍 감성 릴스</li>
-   <li><b>D</b> 시네마 로판</li>
-   <li><b>E</b> 기타 (직접 입력)</li>
-  </ul>
-  <h4>45초 대본 체크리스트</h4>
-  <ul class="checklist">
-   <li>15초 안에 거절·소유·숨은 관계 훅이 있어요</li>
-   <li>인물은 3명 이하여요</li>
-   <li>소품은 하나예요</li>
-   <li>자막만으로 줄거리가 읽혀요</li>
-   <li>답이 없는 엔딩으로 다음 화가 궁금해요</li>
-  </ul>
-    <div class="period">
-     <div class="period-header">
-      <div>
-       <h5><span>120분</span>진행표</h5>
-       <p>설명은 짧게, 직접 해 보는 시간은 길게</p>
-      </div>
-     </div>
-     <ol class="blocks">
-    <li class="block">
-     <span class="block-time">0~10분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>도입</strong>
-      </div>
-      <p>오늘 목표: 숏드라마 1화를 내 채널에 올리고 발표하기</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">10~20분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>스타일</strong>
-      <span class="block-type practice">실습</span>
-      </div>
-      <p>김숏드에서 스타일 A~E 고르기</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">20~45분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>대본</strong>
-      <span class="block-type practice">실습</span>
-      </div>
-      <p>45초 1화 대본 쓰기 + 체크리스트 통과</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">45~50분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>휴식</strong>
-      </div>
-      <p>늦은 분은 강사가 개별 도움</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">50~85분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>영상</strong>
-      <span class="block-type practice">실습</span>
-      </div>
-      <p>2회에서 익힌 자동화(그록봇 또는 Aside + Flow·Grok)로 영상 만들기</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">85~105분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>자막·소리</strong>
-      <span class="block-type practice">실습</span>
-      </div>
-      <p>자막으로 줄거리가 읽히게 넣기. 목소리는 선택이며, 넣으면 1배속·무료 기반으로 만들어요</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">105~115분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>편집·업로드</strong>
-      <span class="block-type practice">실습</span>
-      </div>
-      <p>완성본 확인 후 내 채널에 직접 업로드. 게시 버튼은 내가</p>
-     </div>
-    </li>
-    <li class="block">
-     <span class="block-time">115~120분</span>
-     <div class="block-content">
-      <div class="block-title">
-       <strong>발표</strong>
-      </div>
-      <p>한 사람씩 짧게: 제목, 첫 15초 훅, 다음에 만들고 싶은 것</p>
-     </div>
-    </li>
-     </ol>
-    </div>
- </div>
- <div class="acc-side">
-  <h4>실습</h4>
-  <ol class="acc-steps">
-   <li>스타일 고르기 (A~E)</li>
-   <li>45초 대본 쓰고 체크리스트 통과시키기</li>
-   <li>2회 자동화로 영상 만들기</li>
-   <li>자막 넣고 (목소리는 선택, 1배속) 편집하기</li>
-   <li>내 채널에 1화 올리고 발표하기</li>
-  </ol>
-  <p class="acc-prep"><b>준비물</b> · 1~3회에서 설치한 도구, 2회에서 만든 클립 경험, 3회에 연 내 채널, 만들고 싶은 이야기 한 줄</p>
-  <p class="acc-out"><span>끝나면 내 손에</span>체크리스트를 통과한 45초 대본 · 숏드라마 1화 완성본 · 내 채널에 올라간 1화 · 짧은 발표</p>
- </div>
-</div></div>
-</details>
-
- </div>
-</div></section>
-
-<section class="r-sec wash" id="results"><div class="r-narrow">
- <p class="r-kicker">수료할 때 내 손에 남는 것</p>
- <h2>4주 뒤, <mark>내 채널에 올라간 숏드라마 1화</mark></h2>
- <p class="r-sub">모든 결과물은 수업 시간 안에 직접 만들고, 화면으로 확인해요.</p>
- <ul class="r-results">
-  <li><span>1회</span><strong>그록봇과 Aside 설치, 기초 활용</strong><small>로그인된 노트북 · X Premium 구독 · 대화 1개 · 루틴 1개 · Aside 조사표</small></li>
-  <li><span>2회</span><strong>내 AI 연결과 영상 자동화</strong><small>herdr 설치 · Grok CLI 연결 · Flow 무료 계정 · 클립 3개</small></li>
-  <li><span>3회</span><strong>쇼츠 만들고 채널 열기</strong><small>정보형 쇼츠 1편 · 내 유튜브 쇼츠 채널 · 첫 업로드</small></li>
-  <li><span>4회</span><strong>김숏드로 숏드라마 1화 완성</strong><small>45초 대본 · 완성본 · 채널에 올라간 1화 · 발표</small></li>
- </ul>
-</div></section>
-
 <section class="r-price" id="price"><div class="r-narrow">
  <h2>준비물과 비용, <mark>짧게 정리하면</mark></h2>
- <p class="r-amount-note">필수 구독은 X Premium뿐이에요. Google Flow는 무료 계정으로 시작하고, 나머지 도구는 무료로 수업을 진행해요. 구독은 본인이 직접 결제하고, 결제 버튼도 본인이 눌러요. 2026-11-12 기준이에요.</p>
+ <p class="r-amount-note">수강료 금액은 아직 정하지 않아 이 페이지에 적지 않아요. 필수 구독은 X Premium이며, 본인이 직접 결제하고 결제 버튼도 본인이 눌러요. 2026-11-12 기준이에요.</p>
  <div class="cost-table" role="table" aria-label="비용 정리">
   <div class="cost-row free" role="row">
-   <span role="cell"><em class="pill free">무료</em><strong>1회 설치 수업</strong><small>그록봇 + Aside 설치 · 2시간</small></span>
+   <span role="cell"><em class="pill free">무료</em><strong>무료 강의 (설치 수업)</strong><small>그록봇 + Aside 설치 · 2시간 · 유료 과정의 선수 수업</small></span>
    <span role="cell" class="cost-amt"><b>수업료 0원</b><small>X Premium은 별도</small></span>
-   <span role="cell" class="cost-to">수업료 없음</span>
+   <span role="cell" class="cost-to"><a href="free.html">무료 강의 보기</a></span>
   </div>
   <div class="cost-row sub" role="row">
-   <span role="cell"><em class="pill sub">필수 구독</em><strong>X Premium (그록봇)</strong><small>1회 수업 중 본인 구독</small></span>
+   <span role="cell"><em class="pill sub">필수 구독</em><strong>X Premium (그록봇)</strong><small>무료 강의 중 본인 구독</small></span>
    <span role="cell" class="cost-amt"><b>월 $30</b><small>세금 별도</small></span>
    <span role="cell" class="cost-to">x.ai에 직접 결제</span>
   </div>
@@ -1036,7 +532,7 @@ button.cal-cell{cursor:pointer;border-top:0;border-left:0;border-radius:0}button
    <dt>가져올 것</dt>
    <dd>
     <span>노트북 + 충전기 (수강생은 대부분 윈도우, Mac도 가능)</span>
-    <span>Google 계정 · 해외 결제 되는 본인 카드(1회) · 휴대폰(인증용)</span>
+    <span>Google 계정 · 해외 결제 되는 본인 카드(무료 강의) · 휴대폰(인증용)</span>
    </dd>
   </div>
   <div>
@@ -1051,7 +547,7 @@ button.cal-cell{cursor:pointer;border-top:0;border-left:0;border-radius:0}button
  </dl>
  <div class="r-price-cta" id="apply">
   <strong>아들맘 블로그모임 회원 특별 이벤트</strong>
-  <p>주 1회 · 4주 · 총 4회 · 회당 2시간 · 1회 설치 수업 무료<br>동탄 실리콘앨리 B동 1529호 · 주차 지원 · 요일·시간 추후 안내</p>
+  <p>무료 강의 2시간 · 이어서 1달 4회 또는 1달 8회 과정<br>동탄 실리콘앨리 B동 1529호 · 주차 지원 · 요일·시간 추후 안내</p>
   <a class="r-btn" href="#faq">신청은 아들맘님께 별도로 해 주세요</a>
  </div>
  <div class="r-archive" id="archive">
@@ -1066,24 +562,25 @@ button.cal-cell{cursor:pointer;border-top:0;border-left:0;border-radius:0}button
 <section class="r-sec" id="faq"><div class="r-narrow">
  <h2>자주 묻는 질문</h2>
  <div class="faqs">
-  <details class="faq"><summary><em>중요</em>1회가 무료라는데, 돈이 드나요?<i aria-hidden="true"></i></summary><p>수업료는 무료예요. 그록봇을 쓰려면 <strong>X Premium(월 $30 + 세금)</strong> 구독이 필요해서, 수업 중에 각자 본인 카드로 구독해요. Google Flow는 무료 계정으로 시작하고, 나머지 도구는 무료로 수업을 진행해요. 원하지 않으면 강사 화면으로 따라 보셔도 돼요.</p></details>
+  <details class="faq"><summary><em>중요</em>무엇을 먼저 들어야 하나요?<i aria-hidden="true"></i></summary><p>먼저 <a href="free.html">무료 강의에서</a> 그록봇과 Aside를 설치해요. 이 강의가 4회 과정과 8회 과정의 선수 수업이에요.</p></details>
+  <details class="faq"><summary>4회와 8회는 뭐가 달라요?<i aria-hidden="true"></i></summary><p><a href="month-4.html">4회 과정</a>은 주 1회, 숏드라마 1화와 채널 업로드까지예요. <a href="month-8.html">8회 과정</a>은 주 2회, 시리즈 기획·콘티·썸네일·2화 혼자 만들기와 채널 운영 루틴까지 가져가요. 둘 다 무료 강의가 선수 수업이에요.</p></details>
+  
+  <details class="faq"><summary><em>중요</em>무료 강의인데, 돈이 드나요?<i aria-hidden="true"></i></summary><p>수업료는 무료예요. 그록봇을 쓰려면 <strong>X Premium(월 $30 + 세금)</strong> 구독이 필요해서, 수업 중에 각자 본인 카드로 구독해요. Google Flow는 무료 계정으로 시작하고, 나머지 도구는 무료로 수업을 진행해요. 원하지 않으면 강사 화면으로 따라 보셔도 돼요.</p></details>
   <details class="faq"><summary><em>중요</em>강사님이 결제를 대신 해 주시나요?<i aria-hidden="true"></i></summary><p>아니요. 카드 정보는 본인만 입력하고, 결제 버튼도 본인이 눌러요. 강사는 순서만 화면으로 보여 드려요.</p></details>
-  <details class="faq"><summary>컴퓨터를 잘 몰라도 되나요?<i aria-hidden="true"></i></summary><p>네. 1회에 설치부터 같이 해요. 수강생 컴퓨터는 대부분 윈도우예요. Mac도 따라올 수 있게 설치 명령을 따로 안내해요. 막히면 화면을 보여 주시면 바로 같이 풀어요.</p></details>
-  <details class="faq"><summary>Aside와 그록봇은 뭐가 달라요?<i aria-hidden="true"></i></summary><p>Aside는 내 컴퓨터의 AI 브라우저라 컴퓨터가 켜져 있어야 일해요. 그록봇은 클라우드 컴퓨터에서 일해서 노트북을 꺼도 일을 이어 갈 수 있어요.</p></details>
-  <details class="faq"><summary>herdr는 뭐예요?<i aria-hidden="true"></i></summary><p>내 컴퓨터 터미널에서 Grok CLI 같은 AI를 창을 나눠 실행하고, 일하는 중·막힘·대기 상태를 보여 주는 공개 도구예요. 2회에 함께 설치해요. <a href="https://herdr.dev/" target="_blank" rel="noopener">herdr.dev ↗</a></p></details>
+  <details class="faq"><summary>컴퓨터를 잘 몰라도 되나요?<i aria-hidden="true"></i></summary><p>네. 무료 강의에서 설치부터 같이 해요. 수강생 컴퓨터는 대부분 윈도우예요. Mac도 따라올 수 있게 설치 명령을 따로 안내해요. 막히면 화면을 보여 주시면 바로 같이 풀어요.</p></details>
   <details class="faq"><summary>목소리는 꼭 넣어야 하나요?<i aria-hidden="true"></i></summary><p>아니요. 이 과정은 자막이 줄거리의 주된 전달이에요. 목소리는 선택이며, 넣을 때는 모두 1배속, 무료 기반으로 만들어요.</p></details>
   <details class="faq"><summary>업로드나 결제를 AI가 마음대로 하나요?<i aria-hidden="true"></i></summary><p>아니요. AI는 영상과 제목·설명까지 준비하고, 게시 버튼과 결제 버튼은 언제나 내가 눌러요.</p></details>
-  <details class="faq"><summary>AI로 만든 영상을 올려도 되나요?<i aria-hidden="true"></i></summary><p>네. 실제처럼 보이는 AI 장면은 업로드할 때 ‘AI 사용’(변경되거나 합성된 콘텐츠)을 ‘예’로 표시해요. 3회와 4회에 같이 해요. <a href="https://support.google.com/youtube/answer/14328491" target="_blank" rel="noopener">YouTube 안내 ↗</a></p></details>
   <details class="faq"><summary>신청은 어떻게 하나요?<i aria-hidden="true"></i></summary><p>아들맘님께 별도로 신청해 주세요.</p></details>
+
  </div>
 </div></section>
 </main>
-
 <footer class="r-foot"><div class="r-narrow">
- <strong>AI BUILDERS LAB · 숏드라마 1달 4회</strong><span>주최 블로그 글쓰기 모임 (운영자 아들맘) · 진행 제레미</span>
- <span><a href="v2-8회.html">8회 과정 보관 페이지 →</a> · <a href="v1-4회.html">이전 4회 버전 보기 →</a></span>
+ <strong>AI BUILDERS LAB · 숏드라마 과정 안내</strong><span>주최 블로그 글쓰기 모임 (운영자 아들맘) · 진행 제레미</span>
+ <span><a href="index.html">과정 소개</a> · <a href="free.html">무료 강의</a> · <a href="month-4.html">1달 4회</a> · <a href="month-8.html">1달 8회</a></span>
+ 
  <p class="r-legal">가격 확인일 2026-11-12 · 출처 <a href="https://x.ai/pricing" target="_blank" rel="noopener">x.ai/pricing</a> · <a href="https://docs.x.ai/x-subscription/cancel" target="_blank" rel="noopener">X Subscription 해지 안내</a> · <a href="https://www.aside.com/pricing" target="_blank" rel="noopener">aside.com/pricing</a> · <a href="https://herdr.dev/" target="_blank" rel="noopener">herdr.dev</a> · <a href="https://support.google.com/flow/answer/16526234" target="_blank" rel="noopener">Google Flow 크레딧</a> · <a href="https://support.google.com/youtube/answer/1311392" target="_blank" rel="noopener">YouTube 수익 창출 정책</a>. 예시 영상의 장면·인물은 AI로 만든 창작물이며 실제와 관련이 없어요. Grok·Grok Bot은 x.ai의 상표이며, 이 과정은 x.ai와 제휴 관계가 없는 독립 교육 과정이에요.</p>
 </div></footer>
-<a class="r-sticky" href="#apply"><span><em class="pill free">무료</em>1회 설치 수업 · 주 1회 · 4주 · 4회</span><b>신청 방법</b></a>
+<a class="r-sticky" href="#apply"><span><em class="pill free">무료</em>설치 강의로 시작 · 4회 또는 8회 과정</span><b>신청 방법</b></a>
 </body>
 </html>
