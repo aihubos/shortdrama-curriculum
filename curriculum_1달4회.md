@@ -223,14 +223,14 @@ brew install herdr
 
 ## 준비물·비용 요약 (2026-11-12 확인)
 
-수강료 금액은 이 문서에 적지 않아요. 필수 구독은 X Premium이며, 본인이 직접 결제하고 결제 버튼도 본인이 눌러요. 가격은 바뀔 수 있어서 결제 전 공식 화면에서 한 번 더 봐요.
+수강료는 별도 협의예요. 필수 구독은 X Premium이며, 본인이 직접 결제하고 결제 버튼도 본인이 눌러요. 가격은 바뀔 수 있어서 결제 전 공식 화면에서 한 번 더 봐요.
 
 | 항목 | 비용 | 비고 |
 |---|---|---|
 | 선수 수업 | 수업료 무료 | [무료 1회차](free.html) · [무료 2회차](free-2.html) 각 2시간 |
-| X Premium (그록봇) | 월 $30 + 세금 (필수) | 무료 강의 중 본인 구독. 연간 $300. 해지는 grok.com/dashboard/billing › Current plan 옵션 › Cancel |
+| X Premium (그록봇) | 별도 협의 (필수) | 무료 강의 중 본인 구독. 해지는 grok.com/dashboard/billing › Current plan 옵션 › Cancel |
 | Google Flow | 무료 계정 | 무료 크레딧에는 한도가 있어요. 양은 수업 때 공식 화면에서 확인해요 |
-| Aside | 무료로 수업 가능 | 월 500 크레딧, 루틴 3개. Pro는 월 $20 (선택) |
+| Aside | 무료로 수업 가능 | 월 500 크레딧, 루틴 3개. Pro는 별도 협의 (선택) |
 | herdr | 무료 | 공개 도구 (https://herdr.dev/) |
 | hyperframeshorts | 무료 | https://github.com/aihubos/hyperframesshorts |
 | 김숏드 | 수업에서 사용 | 그록봇으로 숏드라마 제작 |

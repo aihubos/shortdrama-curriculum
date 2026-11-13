@@ -40,7 +40,7 @@
 
 ## 1회 · 설치 수업 (수업료 무료 · X Premium은 본인 구독) — 그록봇과 Aside 설치, 기초 활용
 
-> 수업은 무료예요. 그록봇을 쓰려면 X Premium 구독(월 약 $30 + 세금)이 필요하고, 수업 중에 각자 본인 카드로 함께 구독해요.
+> 수업은 무료예요. 그록봇을 쓰려면 X Premium 구독(금액은 별도 협의)이 필요하고, 수업 중에 각자 본인 카드로 함께 구독해요.
 
 ### 수업 전 안내문 (신청자에게 미리 보내기)
 
@@ -57,8 +57,8 @@
 - (있으면) X 계정. 없어도 돼요. X 계정은 X 혜택을 받을 때만 연결해요.
 
 ■ 비용
-- X Premium: 월 $30 + 세금 (원화는 카드사 환율·해외결제 수수료에 따라 달라져요)
-- 연간 결제는 $300 (월 $25꼴)
+- X Premium: 별도 협의 (본인 구독)
+- 연간·월간 금액은 별도 협의
 - 매달 자동 갱신돼요. 원하지 않으면 갱신 24시간 전까지 해지해야 다음 결제가 안 나가요.
 
 ■ 해지하는 법 (웹에서 결제한 경우)
@@ -132,8 +132,8 @@
 ### 참고 비용 (2026-11-12 확인)
 
 - 1회 수업료: 무료 (2시간)
-- Aside: 무료 플랜은 월 500 크레딧, 루틴 3개까지. Pro는 월 $20 (aside.com/pricing)
-- 그록봇: 앱 설치는 무료. 쓰려면 X Premium 월 $30(세금 별도, 연간 $300)이 필요해요. (x.ai/pricing)
+- Aside: 무료 플랜은 월 500 크레딧, 루틴 3개까지. Pro는 별도 협의 (aside.com/pricing)
+- 그록봇: 앱 설치는 무료. 쓰려면 X Premium이 필요해요. 금액은 별도 협의예요. (x.ai/pricing)
 - 해지: grok.com/dashboard/billing › Current plan 옵션 › Cancel (docs.x.ai/x-subscription/cancel). 해지해도 이번 결제 기간 끝까지는 쓸 수 있어요.
 
 ---
@@ -307,9 +307,9 @@ curl -fsSL https://herdr.dev/install.sh | sh
 | 항목 | 비용 | 비고 |
 |---|---|---|
 | 1회 설치 수업 | 수업료 무료 | 2시간 |
-| X Premium (그록봇) | 월 $30 + 세금 (필수) | 1회 수업 중 본인 구독. 연간 $300. 해지는 grok.com/dashboard/billing › Current plan 옵션 › Cancel |
+| X Premium (그록봇) | 별도 협의 (필수) | 1회 수업 중 본인 구독. 해지는 grok.com/dashboard/billing › Current plan 옵션 › Cancel |
 | Google Flow | 무료 계정 | 무료 크레딧에는 한도가 있어요. 양은 수업 때 공식 화면에서 확인해요 |
-| Aside | 무료로 수업 가능 | 월 500 크레딧, 루틴 3개. Pro는 월 $20 (선택) |
+| Aside | 무료로 수업 가능 | 월 500 크레딧, 루틴 3개. Pro는 별도 협의 (선택) |
 | herdr | 무료 | 공개 도구 (https://herdr.dev/) |
 | hyperframeshorts | 무료 | https://github.com/aihubos/hyperframesshorts |
 | 김숏드 | 수업에서 사용 | 그록봇으로 숏드라마 제작 |
